@@ -1,4 +1,6 @@
 {
+  "author":"Kubilay Bozak",
+  "description": "In this project, you can use Tailwind, create AntDesign costume theme and write Scss easily. Here is My Github: https://github.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure",
   "name": "next-antd-example",
   "version": "0.1.0",
   "private": true,

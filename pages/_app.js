@@ -18,7 +18,13 @@ import tr_TR from 'antd/lib/locale/tr_TR';
 function MyApp({ Component, pageProps }) {
     return (
       <div className='rootdiv'>
-        <div className="m-10 bg-red-100 p-3">asdasdasdasasd</div>
+        <div className="m-10 bg-red-100 p-3 flex flex-col">
+         <span> Created by Kubilay Bozak</span>
+         <span> Github: <a>https://github.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure</a> </span>
+         <span> Medium: <a>https://kubilaybozak.medium.com/</a></span>
+         <span> Linkedin: <a>https://www.linkedin.com/in/kubilaybozak/</a></span>
+        </div>
+
         <ConfigProvider locale={tr_TR}>
           <Component {...pageProps} />
         </ConfigProvider>
