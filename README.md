@@ -1,34 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Tailwind-AntDesign-Scss-Project-Structure
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+Thanks to this project, you can develop your own components using Tailwind, prepare a costum theme using AntDesign, use the components developed by the ant design community, and give the desired edits to the html tags using Scss.
+
+
+## Specifications
+* Tailwind
+* AntDesign
+* Scss
+
+  
+
+Tailwind             |  Ant Design
+:-------------------------:|:-------------------------:
+![Logo](https://cdn-contents.anymindgroup.com/corporate/wp-uploads/2021/08/05165454/Tailwindcss.png)  | ![Logo2](https://www.nobleprog.com.tr/sites/hitrahr/files/category_images/height100_scale/ant_design_training.png?t=657a5cd8)
+
+## İnstall 
+
+
+```bash 
+  git clone https://github.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure.git
+  cd Tailwind-AntDesign-Scss-Project-Structure
+  code . // 'For open vs code '
+  npm i 
+  npm run dev 
+
+```
+    
+## Demo
+
+
+
+![Ss1](https://raw.githubusercontent.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure/main/ScreenShots/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20-%202022-04-28%2009-14-25.png?token=GHSAT0AAAAAABUASENRH7XW3EORI5BVRGBCYTKGHPA)
+![ss2](https://raw.githubusercontent.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure/main/ScreenShots/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20-%202022-04-28%2009-14-42.png?token=GHSAT0AAAAAABUASENQECZDUAGC757QDH76YTKGHHA)
+## Customize AntDesign Theme
+
+https://ant.design/docs/react/customize-theme
+
+
+ 
+
+**in out project it has**
+
+    .
+    ├── ...
+    ├── styles                      # Test files (alternatively `spec` or `tests`)
+    │   ├── globals.css             # you special global scss
+    │   ├── tailwind.scss           # For import Tailwind.
+    │   └── variables.less          # Configure antdesign themes
+    └── ...
+
+
+**For example (variables.less) =>**
+
+```less
+
+@import "~antd/lib/style/themes/default.less";
+@import "~antd/dist/antd.less"; // Import Ant Design styles
+
+@primary-color-active:#f0b400;
+
+
+
+@primary-color: #ffc107; // primary color for all components
+@link-color: #1890ff; // link color
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+@font-size-base: 14px; // major text font size
+@heading-color: rgba(0, 0, 0, 0.85); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
+@disabled-color: rgba(0, 0, 0, 0.25); // disable state color
+@border-radius-base: 2px; // major border radius
+@border-color-base: #d9d9d9; // major border color
+@box-shadow-base: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+  0 9px 28px 8px rgba(0, 0, 0, 0.05); // major shadow for layers
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  
