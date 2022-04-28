@@ -32,8 +32,8 @@ Tailwind             |  Ant Design
 
 
 
-![Ss1](https://raw.githubusercontent.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure/main/ScreenShots/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20-%202022-04-28%2009-14-25.png?token=GHSAT0AAAAAABUASENRH7XW3EORI5BVRGBCYTKGHPA)
-![ss2](https://raw.githubusercontent.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure/main/ScreenShots/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20-%202022-04-28%2009-14-42.png?token=GHSAT0AAAAAABUASENQECZDUAGC757QDH76YTKGHHA)
+![Ss1](https://github.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure/blob/main/ScreenShots/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20-%202022-04-28%2009-14-25.png)
+![ss2](https://github.com/kubilaybzk/Tailwind-AntDesign-Scss-Project-Structure/blob/main/ScreenShots/Ekran%20G%C3%B6r%C3%BCnt%C3%BCs%C3%BC%20-%202022-04-28%2009-14-42.png)
 ## Customize AntDesign Theme
 
 https://ant.design/docs/react/customize-theme
